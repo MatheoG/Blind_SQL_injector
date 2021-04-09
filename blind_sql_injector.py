@@ -11,7 +11,8 @@ expression = b"Welcome back admin !"
 passLength = 8
 username = 'admin'
 passwordTableName = 'password'
-requestPauseTime = 3.0 #to avoid ip ban
+#to avoid ip ban, turn this to 0 if there is no ip ban
+requestPauseTime = 3.0 
 #don't touch
 i=0
 result=''
